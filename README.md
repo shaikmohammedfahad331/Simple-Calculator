@@ -9,3 +9,4 @@ A simple calculator implemented using HTML, CSS, and JavaScript.
 - Multiplication
 - Division
 
+Click to Visit Website : https://shaikmohammedfahad331.github.io/Simple-Calculator/
