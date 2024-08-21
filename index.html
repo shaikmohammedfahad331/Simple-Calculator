@@ -1,0 +1,79 @@
+<!--
+NAME : KAMBHAM HEMANTH REDDY
+SRM INSTITUTE OF SCIENCE AND TECHNOLOGY(2021-2025)
+BACHELOR OF TECHNOLOGY - COMPUTER SCIENCE AND ENGINEERING
+SIMPLE CALCULATOR WITH HTML,CSS AND JAVASCRIPT
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CALCULATOR</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <form>
+        <div>
+          <input
+            style="width: 7.4cm; height: 1.5cm; border-radius: 10px;margin-left: 7px;  font-size: 1cm;margin-bottom: 1.3cm;margin-top: 1cm;background:black;color:white;text-align:right"
+            type="text" name="display">
+        </div>
+        
+        <div>
+          <input type="button" value="AC" class="same" id="sym"onclick="display.value = '' ">
+          <input type="button" value="(" class="same2" id="sym" onclick="display.value += '(' ">
+          <input type="button" value=")" class="same2" id="sym" onclick="display.value += ')' ">
+        </div>
+        <div>
+
+          <input type="button" value="^" class="same" id="sym" onclick="display.value += '**'">
+          <input type="button" value="%" class="same" id="sym" onclick="display.value += '%' ">
+          <input type="button" value="." class="same" id="sym" onclick="display.value += '.' ">
+          <input type="button" value="/" class="same" id="sym" onclick="display.value += '/' ">
+        </div>
+
+        <div>
+          <input type="button" value="7" class="same" onclick="display.value += '7' ">
+          <input type="button" value="8" class="same" onclick="display.value += '8' ">
+          <input type="button" value="9" class="same" onclick="display.value += '9' ">
+          <input type="button" value="*" class="same" id="sym" onclick="display.value += '*' ">
+        </div>
+
+        <div>
+          <input type="button" value="4" class="same" onclick="display.value += '4' ">
+          <input type="button" value="5" class="same" onclick="display.value += '5' ">
+          <input type="button" value="6" class="same" onclick="display.value += '6' ">
+          <input type="button" value="-" class="same" id="sym" onclick="display.value += '-' ">
+        </div>
+
+        <div>
+          <input type="button" value="1" class="same" onclick="display.value += '1' ">
+          <input type="button" value="2" class="same" onclick="display.value += '2' ">
+          <input type="button" value="3" class="same" onclick="display.value += '3' ">
+          <input type="button" value="+" class="same" id="sym" onclick="display.value += '+' ">
+        </div>
+
+        <div>
+          <input type="button" value=00 class="same" onclick="display.value += '00' ">
+          <input type="button" value="0" class="same" onclick="display.value += '0' ">
+          <input type="button" value="=" class="same1" id="sym" onclick="display.value=eval(display.value)">
+        </div>
+        <div style="position: relative;left: 2.4cm;top: 0.5; font-family: 'Courier New', monospace;font-size:16px;">
+         <a href="https://www.linkedin.com/in/shaik-fahad-571b8a289/" target="_blank" style="text-decoration:none;color:black"<strike><b>SHAIK MOHAMMED FAHAD</b></strike></a>
+
+        </div>
+      </form>
+
+
+
+      <script src="script.js"></script>
+   
+</body>
+
+</html>

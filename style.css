@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18.3cm;
+
+}
+
+.same {
+  width: 1.5cm;
+  height: 1.5cm;
+  margin: 8px;
+  border-radius: 10px;
+  font-size: 0.5cm;
+  color: black;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 2px 2px 7px 1px black;
+
+}
+
+.same1 {
+  width: 3.5cm;
+  height: 1.5cm;
+  margin-left: 7px;
+  border-radius: 10px;
+  color: black;
+  font-size: 0.5cm;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 2px 2px 3px 2px black;
+}
+
+.calculator {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border-radius: 10px;
+  padding: 0.3cm;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+.same2 {
+  width: 2.5cm;
+  height: 1.5cm;
+  margin: 8px;
+  border-radius: 10px;
+  font-size: 0.5cm;
+  color: black;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 2px 2px 7px 1px black;
+}
+
+#sym {
+  color: red;
+}
